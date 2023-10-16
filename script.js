@@ -1,6 +1,7 @@
 const form = document.querySelector('.product-form-container')
 const nameInput = document.querySelector('#name')
 const priceInput = document.querySelector('#price')
+const productsContainer = document.querySelector('.products-container')
 
 let currentProducts = JSON.parse(localStorage.getItem('items')) || []
 
